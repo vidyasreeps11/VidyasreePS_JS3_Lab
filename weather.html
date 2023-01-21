@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body >
+    <br><br>
+    <div class="error_div" id="error_block"></div>
+    <div class="search_box_div">
+        <input class="search_box" id="city" type="text" placeholder="search for a city" >
+        <input type="button" id="search_button" value="Search">
+    </div>
+    <div class="place_date_div" id="place_date_block">
+        <label id="searched_city"></label><br>
+        <label id="date"></label>
+    </div>
+    <div class="temperature_div" id="temp_block">
+        <label id="temperature"></label><br>
+        <label id="image_icon"></label><br>
+        <label id="description"></label><br>
+        <label id="min_max_temp"></label>
+    
+    </div>
+    
+    <script src="weather.js"></script>
+</body>
+</html> 
